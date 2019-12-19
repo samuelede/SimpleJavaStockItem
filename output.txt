@@ -1,0 +1,160 @@
+***Java Program To Manage Order's & Stock Level's*****
+View Current Stock Levels: 
+
+Empty Stock Level, populate with new stock values
+
+Enter a number of Stock to Enter: 4
+Enter a Stock Id or Name. Eg Grapes: Lemons
+Enter Stock Price. Eg 0.65: 0.35
+Enter Stock Quantity. Eg 50: 350
+Enter Minimum Stock Level. Eg 2: 5
+Enter ReOrder Amount. Eg 1000: 1200
+
+Enter a Stock Id or Name. Eg Grapes: Eggs
+Enter Stock Price. Eg 0.65: 1.2
+Enter Stock Quantity. Eg 50: 450
+Enter Minimum Stock Level. Eg 2: 2
+Enter ReOrder Amount. Eg 1000: 1000
+
+Enter a Stock Id or Name. Eg Grapes: Grapes
+Enter Stock Price. Eg 0.65: 0.45
+Enter Stock Quantity. Eg 50: 500
+Enter Minimum Stock Level. Eg 2: 10
+Enter ReOrder Amount. Eg 1000: 2000
+
+Enter a Stock Id or Name. Eg Grapes: Pines
+Enter Stock Price. Eg 0.65: 1.5
+Enter Stock Quantity. Eg 50: 600
+Enter Minimum Stock Level. Eg 2: 5
+Enter ReOrder Amount. Eg 1000: 2500
+
+ Stock Populated 
+Display Total StockLevel Details 
+StockLevel [id=Lemons, price=0.35, curStock=350, minStock=5, reOrderAmt=1200]
+StockLevel [id=Eggs, price=1.2, curStock=450, minStock=2, reOrderAmt=1000]
+StockLevel [id=Grapes, price=0.45, curStock=500, minStock=10, reOrderAmt=2000]
+StockLevel [id=Pines, price=1.5, curStock=600, minStock=5, reOrderAmt=2500]
+
+What would you like to do next? 
+1. Make Order
+2. Check Stock 
+3. ReOrder Items 
+4. Close Application: 1
+
+Select from Stock
+0. Lemons
+1. Eggs
+2. Grapes
+3. Pines
+Type a Stock number: 2
+Place an Order:Enter quantity: 400
+Your order has been placed: 
+Total Cost of Grapes = $180.0
+
+**Updated Stock Level Details**
+StockLevel [id=Lemons, price=0.35, curStock=350, minStock=5, reOrderAmt=1200]
+StockLevel [id=Eggs, price=1.2, curStock=450, minStock=2, reOrderAmt=1000]
+StockLevel [id=Grapes, price=0.45, curStock=100, minStock=10, reOrderAmt=2000]
+StockLevel [id=Pines, price=1.5, curStock=600, minStock=5, reOrderAmt=2500]
+
+Options: Select a number to Proceed
+1. Make an Order
+2. Check Stock
+3. Reorder Item
+4. Close Application: 1
+
+Select from Stock
+0. Lemons
+1. Eggs
+2. Grapes
+3. Pines
+Type a Stock number: 2
+Place an Order:Enter quantity: 95
+Your order has been placed: 
+Total Cost of Grapes = $42.75
+
+**Updated Stock Level Details**
+StockLevel [id=Lemons, price=0.35, curStock=350, minStock=5, reOrderAmt=1200]
+StockLevel [id=Eggs, price=1.2, curStock=450, minStock=2, reOrderAmt=1000]
+StockLevel [id=Grapes, price=0.45, curStock=5, minStock=10, reOrderAmt=2000]
+StockLevel [id=Pines, price=1.5, curStock=600, minStock=5, reOrderAmt=2500]
+
+Options: Select a number to Proceed
+1. Make an Order
+2. Check Stock
+3. Reorder Item
+4. Close Application: 1
+
+Select from Stock
+0. Lemons
+1. Eggs
+2. Grapes
+3. Pines
+Type a Stock number: 2
+Place an Order:Enter quantity: 5
+No order placed. Your order is above the available StockLevel
+Reorder Grapes
+
+**Updated Stock Level Details**
+StockLevel [id=Lemons, price=0.35, curStock=350, minStock=5, reOrderAmt=1200]
+StockLevel [id=Eggs, price=1.2, curStock=450, minStock=2, reOrderAmt=1000]
+StockLevel [id=Grapes, price=0.45, curStock=5, minStock=10, reOrderAmt=2000]
+StockLevel [id=Pines, price=1.5, curStock=600, minStock=5, reOrderAmt=2500]
+
+Options: Select a number to Proceed
+1. Make an Order
+2. Check Stock
+3. Reorder Item
+4. Close Application: 3
+
+Select Stock Item to ReOrder:
+0. Lemons
+1. Eggs
+2. Grapes
+3. Pines
+Type a Stock number: 2
+ReOrder Complete.
+
+**Updated Stock Level Details**
+StockLevel [id=Lemons, price=0.35, curStock=350, minStock=5, reOrderAmt=1200]
+StockLevel [id=Eggs, price=1.2, curStock=450, minStock=2, reOrderAmt=1000]
+StockLevel [id=Grapes, price=0.45, curStock=2005, minStock=10, reOrderAmt=2000]
+StockLevel [id=Pines, price=1.5, curStock=600, minStock=5, reOrderAmt=2500]
+
+Options: Select a number to Proceed
+1. Make an Order
+2. Check Stock
+3. Reorder Item
+4. Close Application: 3
+
+Select Stock Item to ReOrder:
+0. Lemons
+1. Eggs
+2. Grapes
+3. Pines
+Type a Stock number: 0
+ReOrder Complete.
+
+**Updated Stock Level Details**
+StockLevel [id=Lemons, price=0.35, curStock=1550, minStock=5, reOrderAmt=1200]
+StockLevel [id=Eggs, price=1.2, curStock=450, minStock=2, reOrderAmt=1000]
+StockLevel [id=Grapes, price=0.45, curStock=2005, minStock=10, reOrderAmt=2000]
+StockLevel [id=Pines, price=1.5, curStock=600, minStock=5, reOrderAmt=2500]
+
+Options: Select a number to Proceed
+1. Make an Order
+2. Check Stock
+3. Reorder Item
+4. Close Application: 2
+
+Check Stock of an Item: Eg. 1 for GrapesStockLevel [id=Eggs, price=1.2, curStock=450, minStock=2, reOrderAmt=1000]
+StockLevel [id=Grapes, price=0.45, curStock=2005, minStock=10, reOrderAmt=2000]
+StockLevel [id=Pines, price=1.5, curStock=600, minStock=5, reOrderAmt=2500]
+
+Options: Select a number to Proceed
+1. Make an Order
+2. Check Stock
+3. Reorder Item
+4. Close Application: 4
+Applicaiton Closed...
+

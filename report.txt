@@ -1,0 +1,41 @@
+Report
+======
+ 
+Assumptions, design decisions
+-----------------------------
+My StockLevel program starts by checking the current stock in the array list
+which should be empty, it then prompts the user to specify the number of items
+to be added to the array list. Once a number is typed in e.g. 4, 
+the program then uses a for loop to asks the user four times for the values
+for the stock: Id or name, price, stock quantity, minimum stock level, and reorder 
+amount. I typed in values for each stock item four(4) times. I then assigned these values to some variables and passed all 4 group of 
+values into the array List of type StockLevel.
+
+Next the program displays the current stock levels and an option tree using a switch 
+statement for the user to make a choice either to make an order, check current 
+stock levels, reorder items or close the program. If the user enters a value or 
+number outside the displayed options the switch loop detects and tells the user to 
+select a valid option.
+
+If a correct number is chosen, the program further directs the user to select 
+from a tree of stock available, generated using a for loop. Once a number is selected 
+and returned, the next instructions prompts the user to enter an amount for 
+the quantity to be ordered. If the amount or quantity to be ordered is above the 
+quantity in stock, an alarm is called from a method in StockLevel Class and 
+no order is made, also if the StockLevel falls below the set minimum 
+Level, the alarm is called. Once the order has been completed, the order amount 
+is deducted from the current stock for that particular item and a new 
+updated stockLevel report is generated followed by a prompt to make another order, 
+reorder stock, or close the program.
+
+If reorder item is selected, a 'select from stock item to reorder' tree is displayed, 
+and if an item number is entered, it adds the suggested reorder amount to the current 
+quantity in stock and displays the new updated stock level records.
+
+The check stock option displays current stock level and close application ends the 
+program.
+
+Observations
+------------
+In cases where the program expects an integer and the user types in a character, word
+or symbol, the program crashes. This can be improved on and corrected in the future
